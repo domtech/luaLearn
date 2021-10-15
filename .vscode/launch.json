@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+          "type": "lua-local",
+          "request": "launch",
+          "name": "Inheritance",
+          "cwd": "${workspaceFolder}/Inheritance",
+          "program": {
+            "lua": "lua",
+            "file": "${workspaceFolder}/Inheritance/main.lua",
+          },
+          "environment": {
+            "LUA_PATH": ".Inheritance/?.lua"
+        }
+      },
+      
+
+    ]
+}
