@@ -1,5 +1,4 @@
-local classeslib = require("classes")
-
+--local classeslib = require("classes")
 local AnimalType = require("animal")
 
 local CatType = require("cat")
